@@ -1,0 +1,36 @@
+.partners {
+  width: 100%;
+  padding: 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+  padding: 80px 0 80px;
+
+  .part-cont {
+    margin: 0 auto;
+
+    .heading {
+      h1 {
+        font-size: 2em;
+        margin-bottom: 20px;
+        color: #333;
+      }
+    }
+    .p_imgz {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  }
+}
+
+.img_cont img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .img_cont {
+    flex: 1 1 calc(25% - 10px);
+  }
+}

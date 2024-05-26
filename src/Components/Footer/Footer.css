@@ -1,0 +1,134 @@
+.foot-content {
+  padding: 60px 15% 60px;
+  color: #fff;
+
+  .subscribe_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+
+    h1 {
+      font-size: 40px;
+      font-weight: 700;
+    }
+
+    label {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      input {
+        width: 400px;
+        height: 53px;
+        padding: 15px;
+        border: 1px solid #efefef;
+        margin-right: 5px;
+        background: transparent;
+        color: #fff;
+        font-size: 18px;
+      }
+    }
+  }
+
+  .foot_list .cols {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+
+    li {
+      text-align: justify;
+      line-height: 1.8rem;
+      font-size: 15px;
+      cursor: pointer;
+
+      h3,
+      h4 {
+        font-size: 22px;
+        margin-bottom: 10px;
+        font-weight: 600;
+      }
+      p {
+        font-size: 15px;
+        max-width: 500px;
+      }
+    }
+  }
+}
+
+.foot_links ul li:hover {
+  margin-left: 8px;
+  transition: 0.5s all;
+  color: rgb(90, 90, 209);
+}
+
+.foot_tech ul li:hover {
+  margin-left: 8px;
+  transition: 0.5s all;
+  color: rgb(90, 90, 209);
+}
+
+.contact-info p {
+  margin: 0.5em 0;
+  font-size: 1em;
+}
+
+.contact-info a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.social-media {
+  margin-top: 1em;
+}
+
+.social-media a {
+  margin: 0 0.5em;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5em;
+  transition: color 0.3s;
+}
+
+.social-media a:hover {
+  color: #ccc;
+}
+
+@media (max-width: 768px) {
+  .subscribe_box {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .subscribe_box h1 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+
+  .subscribe_box label {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .subscribe_box input {
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  .subscribe_box .btn {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .foot_list .cols {
+    flex-direction: column;
+  }
+
+  .foot_list li {
+    flex: 1 1 100%;
+  }
+  .foot_list h4 {
+    margin-top: 30px;
+  }
+}
